@@ -1,0 +1,260 @@
+2021-05-20 13:47:58.858  INFO 154541 --- [restartedMain] com.gab.foodfactory.Application          : Starting Application on infra-HP-240-G7-Notebook-PC with PID 154541 (/home/gabriel/dev/FoodFactory/target/classes started by gabriel in /home/gabriel/dev/FoodFactory)
+2021-05-20 13:47:58.860  INFO 154541 --- [restartedMain] com.gab.foodfactory.Application          : No active profile set, falling back to default profiles: default
+2021-05-20 13:47:58.897  INFO 154541 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-05-20 13:47:58.898  INFO 154541 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-05-20 13:47:59.329  INFO 154541 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-05-20 13:47:59.343  INFO 154541 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9ms. Found 0 repository interfaces.
+2021-05-20 13:47:59.565  INFO 154541 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d1467a76] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-20 13:47:59.822  INFO 154541 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8000 (http)
+2021-05-20 13:47:59.839  INFO 154541 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-05-20 13:47:59.840  INFO 154541 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2021-05-20 13:47:59.847  INFO 154541 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+2021-05-20 13:47:59.898  INFO 154541 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-05-20 13:47:59.899  INFO 154541 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1001 ms
+2021-05-20 13:48:00.001  INFO 154541 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-05-20 13:48:00.116  INFO 154541 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-05-20 13:48:00.154  INFO 154541 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2021-05-20 13:48:00.187  INFO 154541 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.7.Final}
+2021-05-20 13:48:00.188  INFO 154541 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2021-05-20 13:48:00.264  INFO 154541 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2021-05-20 13:48:00.338  INFO 154541 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-05-20 13:48:00.471  INFO 154541 --- [restartedMain] o.h.t.schema.internal.SchemaCreatorImpl  : HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@65fc8715'
+2021-05-20 13:48:00.473  INFO 154541 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-05-20 13:48:00.504  INFO 154541 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-05-20 13:48:00.670  INFO 154541 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-20 13:48:00.702  WARN 154541 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-05-20 13:48:00.838  INFO 154541 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8000 (http) with context path ''
+2021-05-20 13:48:00.841  INFO 154541 --- [restartedMain] com.gab.foodfactory.Application          : Started Application in 2.226 seconds (JVM running for 2.667)
+2021-05-20 13:48:02.962  INFO 154541 --- [Thread-13] c.g.f.i.imps.AssemblyLineStageImpl       : product [pan1] coming out to line linea de panes
+2021-05-20 13:48:02.965  INFO 154541 --- [Thread-13] c.g.f.i.imps.AssemblyLineStageImpl       : product [pan2] coming out to line linea de panes
+2021-05-20 13:48:02.966  INFO 154541 --- [Thread-13] c.g.f.i.imps.AssemblyLineStageImpl       : product [pan3] coming out to line linea de panes
+2021-05-20 13:48:02.966  INFO 154541 --- [Thread-13] c.g.f.i.imps.AssemblyLineStageImpl       : product [pan4] coming out to line linea de panes
+2021-05-20 13:48:02.966  INFO 154541 --- [Thread-13] c.g.f.i.imps.AssemblyLineStageImpl       : product [pan5] coming out to line linea de panes
+2021-05-20 13:48:02.966  INFO 154541 --- [Thread-13] c.g.f.i.imps.AssemblyLineStageImpl       : product [pan6] coming out to line linea de panes
+2021-05-20 13:48:02.966  INFO 154541 --- [Thread-13] c.g.f.i.imps.AssemblyLineStageImpl       : product [pan7] coming out to line linea de panes
+2021-05-20 13:48:02.966  INFO 154541 --- [Thread-13] c.g.f.i.imps.AssemblyLineStageImpl       : product [pan8] coming out to line linea de panes
+2021-05-20 13:48:02.967  INFO 154541 --- [Thread-13] c.g.f.i.imps.AssemblyLineStageImpl       : product [pan9] coming out to line linea de panes
+2021-05-20 13:48:02.967  INFO 154541 --- [Thread-13] c.g.f.i.imps.AssemblyLineStageImpl       : product [pan10] coming out to line linea de panes
+2021-05-20 13:48:02.967  INFO 154541 --- [Thread-13] c.g.f.i.imps.AssemblyLineStageImpl       : product [pan11] coming out to line linea de panes
+2021-05-20 13:48:02.967  INFO 154541 --- [Thread-13] c.g.f.i.imps.AssemblyLineStageImpl       : product [pan12] coming out to line linea de panes
+2021-05-20 13:48:02.967  INFO 154541 --- [Thread-13] c.g.f.i.imps.AssemblyLineStageImpl       : product [pan13] coming out to line linea de panes
+2021-05-20 13:48:02.967  INFO 154541 --- [Thread-13] c.g.f.i.imps.AssemblyLineStageImpl       : product [pan14] coming out to line linea de panes
+2021-05-20 13:48:02.968  INFO 154541 --- [Thread-13] c.g.f.i.imps.AssemblyLineStageImpl       : product [pan15] coming out to line linea de panes
+2021-05-20 13:48:02.968  INFO 154541 --- [Thread-13] c.g.f.i.imps.AssemblyLineStageImpl       : product [pan16] coming out to line linea de panes
+2021-05-20 13:48:02.968  INFO 154541 --- [Thread-13] c.g.f.i.imps.AssemblyLineStageImpl       : product [pan17] coming out to line linea de panes
+2021-05-20 13:48:02.968  INFO 154541 --- [Thread-13] c.g.f.i.imps.AssemblyLineStageImpl       : product [pan18] coming out to line linea de panes
+2021-05-20 13:48:02.968  INFO 154541 --- [Thread-13] c.g.f.i.imps.AssemblyLineStageImpl       : product [pan19] coming out to line linea de panes
+2021-05-20 13:48:02.968  INFO 154541 --- [Thread-13] c.g.f.i.imps.AssemblyLineStageImpl       : product [pan20] coming out to line linea de panes
+2021-05-20 13:48:02.969  INFO 154541 --- [Thread-13] c.g.f.i.imps.AssemblyLineStageImpl       : product [pan21] coming out to line linea de panes
+2021-05-20 13:48:02.969  INFO 154541 --- [Thread-13] c.g.f.i.imps.AssemblyLineStageImpl       : product [pan22] coming out to line linea de panes
+2021-05-20 13:48:02.970  INFO 154541 --- [Thread-13] c.g.f.i.imps.AssemblyLineStageImpl       : product [pan23] coming out to line linea de panes
+2021-05-20 13:48:02.970  INFO 154541 --- [Thread-13] c.g.f.i.imps.AssemblyLineStageImpl       : product [pan24] coming out to line linea de panes
+2021-05-20 13:48:02.970  INFO 154541 --- [Thread-13] c.g.f.i.imps.AssemblyLineStageImpl       : product [pan25] coming out to line linea de panes
+2021-05-20 13:48:02.970  INFO 154541 --- [Thread-13] c.g.f.i.imps.AssemblyLineStageImpl       : product [pan26] coming out to line linea de panes
+2021-05-20 13:48:02.971  INFO 154541 --- [Thread-13] c.g.f.i.imps.AssemblyLineStageImpl       : product [pan27] coming out to line linea de panes
+2021-05-20 13:48:02.971  INFO 154541 --- [Thread-13] c.g.f.i.imps.AssemblyLineStageImpl       : product [pan28] coming out to line linea de panes
+2021-05-20 13:48:02.971  INFO 154541 --- [Thread-13] c.g.f.i.imps.AssemblyLineStageImpl       : product [pan29] coming out to line linea de panes
+2021-05-20 13:48:02.971  INFO 154541 --- [Thread-13] c.g.f.i.imps.AssemblyLineStageImpl       : product [pan30] coming out to line linea de panes
+2021-05-20 13:48:02.971  INFO 154541 --- [Thread-13] c.g.f.i.imps.AssemblyLineStageImpl       : product [pan31] coming out to line linea de panes
+2021-05-20 13:48:02.971  INFO 154541 --- [Thread-13] c.g.f.i.imps.AssemblyLineStageImpl       : product [pan32] coming out to line linea de panes
+2021-05-20 13:48:02.971  INFO 154541 --- [Thread-13] c.g.f.i.imps.AssemblyLineStageImpl       : product [pan33] coming out to line linea de panes
+2021-05-20 13:48:02.973  INFO 154541 --- [Thread-13] c.g.f.i.imps.AssemblyLineStageImpl       : product [pan34] coming out to line linea de panes
+2021-05-20 13:48:03.962  INFO 154541 --- [Thread-14] c.g.f.i.imps.AssemblyLineStageImpl       : product [torta1] coming out to line linea de tortas
+2021-05-20 13:48:03.963  INFO 154541 --- [Thread-14] c.g.f.i.imps.AssemblyLineStageImpl       : product [torta2] coming out to line linea de tortas
+2021-05-20 13:48:03.964  INFO 154541 --- [Thread-14] c.g.f.i.imps.AssemblyLineStageImpl       : product [torta3] coming out to line linea de tortas
+2021-05-20 13:48:03.964  INFO 154541 --- [Thread-14] c.g.f.i.imps.AssemblyLineStageImpl       : product [torta4] coming out to line linea de tortas
+2021-05-20 13:48:03.964  INFO 154541 --- [Thread-14] c.g.f.i.imps.AssemblyLineStageImpl       : product [torta5] coming out to line linea de tortas
+2021-05-20 13:48:03.965  INFO 154541 --- [Thread-14] c.g.f.i.imps.AssemblyLineStageImpl       : product [torta6] coming out to line linea de tortas
+2021-05-20 13:48:03.965  INFO 154541 --- [Thread-14] c.g.f.i.imps.AssemblyLineStageImpl       : product [torta7] coming out to line linea de tortas
+2021-05-20 13:48:03.965  INFO 154541 --- [Thread-14] c.g.f.i.imps.AssemblyLineStageImpl       : product [torta8] coming out to line linea de tortas
+2021-05-20 13:48:03.966  INFO 154541 --- [Thread-14] c.g.f.i.imps.AssemblyLineStageImpl       : product [torta9] coming out to line linea de tortas
+2021-05-20 13:48:03.966  INFO 154541 --- [Thread-14] c.g.f.i.imps.AssemblyLineStageImpl       : product [torta10] coming out to line linea de tortas
+2021-05-20 13:48:03.966  INFO 154541 --- [Thread-14] c.g.f.i.imps.AssemblyLineStageImpl       : product [torta11] coming out to line linea de tortas
+2021-05-20 13:48:03.966  INFO 154541 --- [Thread-14] c.g.f.i.imps.AssemblyLineStageImpl       : product [torta12] coming out to line linea de tortas
+2021-05-20 13:48:03.966  INFO 154541 --- [Thread-14] c.g.f.i.imps.AssemblyLineStageImpl       : product [torta13] coming out to line linea de tortas
+2021-05-20 13:48:03.967  INFO 154541 --- [Thread-14] c.g.f.i.imps.AssemblyLineStageImpl       : product [torta14] coming out to line linea de tortas
+2021-05-20 13:48:03.967  INFO 154541 --- [Thread-14] c.g.f.i.imps.AssemblyLineStageImpl       : product [torta15] coming out to line linea de tortas
+2021-05-20 13:48:03.967  INFO 154541 --- [Thread-14] c.g.f.i.imps.AssemblyLineStageImpl       : product [torta16] coming out to line linea de tortas
+2021-05-20 13:48:03.967  INFO 154541 --- [Thread-14] c.g.f.i.imps.AssemblyLineStageImpl       : product [torta17] coming out to line linea de tortas
+2021-05-20 13:48:03.968  INFO 154541 --- [Thread-14] c.g.f.i.imps.AssemblyLineStageImpl       : product [torta18] coming out to line linea de tortas
+2021-05-20 13:48:03.968  INFO 154541 --- [Thread-14] c.g.f.i.imps.AssemblyLineStageImpl       : product [torta19] coming out to line linea de tortas
+2021-05-20 13:48:03.969  INFO 154541 --- [Thread-14] c.g.f.i.imps.AssemblyLineStageImpl       : product [torta20] coming out to line linea de tortas
+2021-05-20 13:48:03.969  INFO 154541 --- [Thread-14] c.g.f.i.imps.AssemblyLineStageImpl       : product [torta21] coming out to line linea de tortas
+2021-05-20 13:48:03.969  INFO 154541 --- [Thread-14] c.g.f.i.imps.AssemblyLineStageImpl       : product [torta22] coming out to line linea de tortas
+2021-05-20 13:48:03.970  INFO 154541 --- [Thread-14] c.g.f.i.imps.AssemblyLineStageImpl       : product [torta23] coming out to line linea de tortas
+2021-05-20 13:48:03.970  INFO 154541 --- [Thread-14] c.g.f.i.imps.AssemblyLineStageImpl       : product [torta24] coming out to line linea de tortas
+2021-05-20 13:48:03.970  INFO 154541 --- [Thread-14] c.g.f.i.imps.AssemblyLineStageImpl       : product [torta25] coming out to line linea de tortas
+2021-05-20 13:48:03.971  INFO 154541 --- [Thread-14] c.g.f.i.imps.AssemblyLineStageImpl       : product [torta26] coming out to line linea de tortas
+2021-05-20 13:48:03.971  INFO 154541 --- [Thread-14] c.g.f.i.imps.AssemblyLineStageImpl       : product [torta27] coming out to line linea de tortas
+2021-05-20 13:48:03.971  INFO 154541 --- [Thread-14] c.g.f.i.imps.AssemblyLineStageImpl       : product [torta28] coming out to line linea de tortas
+2021-05-20 13:48:03.971  INFO 154541 --- [Thread-14] c.g.f.i.imps.AssemblyLineStageImpl       : product [torta29] coming out to line linea de tortas
+2021-05-20 13:48:03.971  INFO 154541 --- [Thread-14] c.g.f.i.imps.AssemblyLineStageImpl       : product [torta30] coming out to line linea de tortas
+2021-05-20 13:48:03.971  INFO 154541 --- [Thread-14] c.g.f.i.imps.AssemblyLineStageImpl       : product [torta31] coming out to line linea de tortas
+2021-05-20 13:48:03.972  INFO 154541 --- [Thread-14] c.g.f.i.imps.AssemblyLineStageImpl       : product [torta32] coming out to line linea de tortas
+2021-05-20 13:48:03.972  INFO 154541 --- [Thread-14] c.g.f.i.imps.AssemblyLineStageImpl       : product [torta33] coming out to line linea de tortas
+2021-05-20 13:48:04.974  INFO 154541 --- [Thread-13] c.g.f.i.imps.AssemblyLineStageImpl       : product [pan35] coming out to line linea de panes
+2021-05-20 13:48:04.975  INFO 154541 --- [Thread-13] c.g.f.i.imps.AssemblyLineStageImpl       : product [pan36] coming out to line linea de panes
+2021-05-20 13:48:04.975  INFO 154541 --- [Thread-13] c.g.f.i.imps.AssemblyLineStageImpl       : product [pan37] coming out to line linea de panes
+2021-05-20 13:48:04.976  INFO 154541 --- [Thread-13] c.g.f.i.imps.AssemblyLineStageImpl       : product [pan38] coming out to line linea de panes
+2021-05-20 13:48:04.976  INFO 154541 --- [Thread-13] c.g.f.i.imps.AssemblyLineStageImpl       : product [pan39] coming out to line linea de panes
+2021-05-20 13:48:04.976  INFO 154541 --- [Thread-13] c.g.f.i.imps.AssemblyLineStageImpl       : product [pan40] coming out to line linea de panes
+2021-05-20 13:48:04.976  INFO 154541 --- [Thread-13] c.g.f.i.imps.AssemblyLineStageImpl       : product [pan41] coming out to line linea de panes
+2021-05-20 13:48:04.976  INFO 154541 --- [Thread-13] c.g.f.i.imps.AssemblyLineStageImpl       : product [pan42] coming out to line linea de panes
+2021-05-20 13:48:04.976  INFO 154541 --- [Thread-13] c.g.f.i.imps.AssemblyLineStageImpl       : product [pan43] coming out to line linea de panes
+2021-05-20 13:48:04.976  INFO 154541 --- [Thread-13] c.g.f.i.imps.AssemblyLineStageImpl       : product [pan44] coming out to line linea de panes
+2021-05-20 13:48:04.976  INFO 154541 --- [Thread-13] c.g.f.i.imps.AssemblyLineStageImpl       : product [pan45] coming out to line linea de panes
+2021-05-20 13:48:04.976  INFO 154541 --- [Thread-13] c.g.f.i.imps.AssemblyLineStageImpl       : product [pan46] coming out to line linea de panes
+2021-05-20 13:48:04.977  INFO 154541 --- [Thread-13] c.g.f.i.imps.AssemblyLineStageImpl       : product [pan47] coming out to line linea de panes
+2021-05-20 13:48:04.977  INFO 154541 --- [Thread-13] c.g.f.i.imps.AssemblyLineStageImpl       : product [pan48] coming out to line linea de panes
+2021-05-20 13:48:04.977  INFO 154541 --- [Thread-13] c.g.f.i.imps.AssemblyLineStageImpl       : product [pan49] coming out to line linea de panes
+2021-05-20 13:48:04.977  INFO 154541 --- [Thread-13] c.g.f.i.imps.AssemblyLineStageImpl       : product [pan50] coming out to line linea de panes
+2021-05-20 13:48:04.977  INFO 154541 --- [Thread-13] c.g.f.i.imps.AssemblyLineStageImpl       : product [pan51] coming out to line linea de panes
+2021-05-20 13:48:04.977  INFO 154541 --- [Thread-13] c.g.f.i.imps.AssemblyLineStageImpl       : product [pan52] coming out to line linea de panes
+2021-05-20 13:48:04.977  INFO 154541 --- [Thread-13] c.g.f.i.imps.AssemblyLineStageImpl       : product [pan53] coming out to line linea de panes
+2021-05-20 13:48:04.977  INFO 154541 --- [Thread-13] c.g.f.i.imps.AssemblyLineStageImpl       : product [pan54] coming out to line linea de panes
+2021-05-20 13:48:05.974  INFO 154541 --- [Thread-14] c.g.f.i.imps.AssemblyLineStageImpl       : product [torta34] coming out to line linea de tortas
+2021-05-20 13:48:05.974  INFO 154541 --- [Thread-14] c.g.f.i.imps.AssemblyLineStageImpl       : product [torta35] coming out to line linea de tortas
+2021-05-20 13:48:05.974  INFO 154541 --- [Thread-14] c.g.f.i.imps.AssemblyLineStageImpl       : product [torta36] coming out to line linea de tortas
+2021-05-20 13:48:05.975  INFO 154541 --- [Thread-14] c.g.f.i.imps.AssemblyLineStageImpl       : product [torta37] coming out to line linea de tortas
+2021-05-20 13:48:05.975  INFO 154541 --- [Thread-14] c.g.f.i.imps.AssemblyLineStageImpl       : product [torta38] coming out to line linea de tortas
+2021-05-20 13:48:05.975  INFO 154541 --- [Thread-14] c.g.f.i.imps.AssemblyLineStageImpl       : product [torta39] coming out to line linea de tortas
+2021-05-20 13:48:05.975  INFO 154541 --- [Thread-13] c.g.f.i.imps.AssemblyLineStageImpl       : product [pan55] coming out to line linea de panes
+2021-05-20 13:48:05.975  INFO 154541 --- [Thread-14] c.g.f.i.imps.AssemblyLineStageImpl       : product [torta40] coming out to line linea de tortas
+2021-05-20 13:48:05.975  INFO 154541 --- [Thread-13] c.g.f.i.imps.AssemblyLineStageImpl       : product [pan56] coming out to line linea de panes
+2021-05-20 13:48:05.975  INFO 154541 --- [Thread-13] c.g.f.i.imps.AssemblyLineStageImpl       : product [pan57] coming out to line linea de panes
+2021-05-20 13:48:05.976  INFO 154541 --- [Thread-13] c.g.f.i.imps.AssemblyLineStageImpl       : product [pan58] coming out to line linea de panes
+2021-05-20 13:48:05.976  INFO 154541 --- [Thread-13] c.g.f.i.imps.AssemblyLineStageImpl       : product [pan59] coming out to line linea de panes
+2021-05-20 13:48:05.976  INFO 154541 --- [Thread-13] c.g.f.i.imps.AssemblyLineStageImpl       : product [pan60] coming out to line linea de panes
+2021-05-20 13:48:05.976  INFO 154541 --- [Thread-13] c.g.f.i.imps.AssemblyLineStageImpl       : product [pan61] coming out to line linea de panes
+2021-05-20 13:48:05.976  INFO 154541 --- [Thread-13] c.g.f.i.imps.AssemblyLineStageImpl       : product [pan62] coming out to line linea de panes
+2021-05-20 13:48:06.974  INFO 154541 --- [Thread-14] c.g.f.i.imps.AssemblyLineStageImpl       : product [torta41] coming out to line linea de tortas
+2021-05-20 13:48:06.975  INFO 154541 --- [Thread-14] c.g.f.i.imps.AssemblyLineStageImpl       : product [torta42] coming out to line linea de tortas
+2021-05-20 13:48:06.975  INFO 154541 --- [Thread-14] c.g.f.i.imps.AssemblyLineStageImpl       : product [torta43] coming out to line linea de tortas
+2021-05-20 13:48:06.975  INFO 154541 --- [Thread-14] c.g.f.i.imps.AssemblyLineStageImpl       : product [torta44] coming out to line linea de tortas
+2021-05-20 13:48:06.975  INFO 154541 --- [Thread-14] c.g.f.i.imps.AssemblyLineStageImpl       : product [torta45] coming out to line linea de tortas
+2021-05-20 13:48:06.975  INFO 154541 --- [Thread-14] c.g.f.i.imps.AssemblyLineStageImpl       : product [torta46] coming out to line linea de tortas
+2021-05-20 13:48:06.975  INFO 154541 --- [Thread-14] c.g.f.i.imps.AssemblyLineStageImpl       : product [torta47] coming out to line linea de tortas
+2021-05-20 13:48:06.975  INFO 154541 --- [Thread-14] c.g.f.i.imps.AssemblyLineStageImpl       : product [torta48] coming out to line linea de tortas
+2021-05-20 13:48:06.975  INFO 154541 --- [Thread-14] c.g.f.i.imps.AssemblyLineStageImpl       : product [torta49] coming out to line linea de tortas
+2021-05-20 13:48:06.976  INFO 154541 --- [Thread-14] c.g.f.i.imps.AssemblyLineStageImpl       : product [torta50] coming out to line linea de tortas
+2021-05-20 13:48:06.976  INFO 154541 --- [Thread-14] c.g.f.i.imps.AssemblyLineStageImpl       : product [torta51] coming out to line linea de tortas
+2021-05-20 13:48:06.976  INFO 154541 --- [Thread-14] c.g.f.i.imps.AssemblyLineStageImpl       : product [torta52] coming out to line linea de tortas
+2021-05-20 13:48:06.976  INFO 154541 --- [Thread-14] c.g.f.i.imps.AssemblyLineStageImpl       : product [torta53] coming out to line linea de tortas
+2021-05-20 13:48:06.976  INFO 154541 --- [Thread-14] c.g.f.i.imps.AssemblyLineStageImpl       : product [torta54] coming out to line linea de tortas
+2021-05-20 13:48:06.976  INFO 154541 --- [Thread-14] c.g.f.i.imps.AssemblyLineStageImpl       : product [torta55] coming out to line linea de tortas
+2021-05-20 13:48:06.976  INFO 154541 --- [Thread-14] c.g.f.i.imps.AssemblyLineStageImpl       : product [torta56] coming out to line linea de tortas
+2021-05-20 13:48:06.976  INFO 154541 --- [Thread-14] c.g.f.i.imps.AssemblyLineStageImpl       : product [torta57] coming out to line linea de tortas
+2021-05-20 13:48:06.976  INFO 154541 --- [Thread-14] c.g.f.i.imps.AssemblyLineStageImpl       : product [torta58] coming out to line linea de tortas
+2021-05-20 13:48:06.976  INFO 154541 --- [Thread-14] c.g.f.i.imps.AssemblyLineStageImpl       : product [torta59] coming out to line linea de tortas
+2021-05-20 13:48:06.976  INFO 154541 --- [Thread-14] c.g.f.i.imps.AssemblyLineStageImpl       : product [torta60] coming out to line linea de tortas
+2021-05-20 13:48:06.976  INFO 154541 --- [Thread-14] c.g.f.i.imps.AssemblyLineStageImpl       : product [torta61] coming out to line linea de tortas
+2021-05-20 13:48:06.976  INFO 154541 --- [Thread-14] c.g.f.i.imps.AssemblyLineStageImpl       : product [torta62] coming out to line linea de tortas
+2021-05-20 13:48:06.976  INFO 154541 --- [Thread-13] c.g.f.i.imps.AssemblyLineStageImpl       : product [pan63] coming out to line linea de panes
+2021-05-20 13:48:06.977  INFO 154541 --- [Thread-14] c.g.f.i.imps.AssemblyLineStageImpl       : product [torta63] coming out to line linea de tortas
+2021-05-20 13:48:06.977  INFO 154541 --- [Thread-13] c.g.f.i.imps.AssemblyLineStageImpl       : product [pan64] coming out to line linea de panes
+2021-05-20 13:48:06.977  INFO 154541 --- [Thread-14] c.g.f.i.imps.AssemblyLineStageImpl       : product [torta64] coming out to line linea de tortas
+2021-05-20 13:48:06.977  INFO 154541 --- [Thread-13] c.g.f.i.imps.AssemblyLineStageImpl       : product [pan65] coming out to line linea de panes
+2021-05-20 13:48:06.977  INFO 154541 --- [Thread-14] c.g.f.i.imps.AssemblyLineStageImpl       : product [torta65] coming out to line linea de tortas
+2021-05-20 13:48:06.977  INFO 154541 --- [Thread-14] c.g.f.i.imps.AssemblyLineStageImpl       : product [torta66] coming out to line linea de tortas
+2021-05-20 13:48:06.977  INFO 154541 --- [Thread-13] c.g.f.i.imps.AssemblyLineStageImpl       : product [pan66] coming out to line linea de panes
+2021-05-20 13:48:06.977  INFO 154541 --- [Thread-14] c.g.f.i.imps.AssemblyLineStageImpl       : product [torta67] coming out to line linea de tortas
+2021-05-20 13:48:06.977  INFO 154541 --- [Thread-13] c.g.f.i.imps.AssemblyLineStageImpl       : product [pan67] coming out to line linea de panes
+2021-05-20 13:48:06.977  INFO 154541 --- [Thread-14] c.g.f.i.imps.AssemblyLineStageImpl       : product [torta68] coming out to line linea de tortas
+2021-05-20 13:48:06.977  INFO 154541 --- [Thread-14] c.g.f.i.imps.AssemblyLineStageImpl       : product [torta69] coming out to line linea de tortas
+2021-05-20 13:48:06.977  INFO 154541 --- [Thread-13] c.g.f.i.imps.AssemblyLineStageImpl       : product [pan68] coming out to line linea de panes
+2021-05-20 13:48:06.977  INFO 154541 --- [Thread-13] c.g.f.i.imps.AssemblyLineStageImpl       : product [pan69] coming out to line linea de panes
+2021-05-20 13:48:06.977  INFO 154541 --- [Thread-13] c.g.f.i.imps.AssemblyLineStageImpl       : product [pan70] coming out to line linea de panes
+2021-05-20 13:48:06.978  INFO 154541 --- [Thread-13] c.g.f.i.imps.AssemblyLineStageImpl       : product [pan71] coming out to line linea de panes
+2021-05-20 13:48:06.978  INFO 154541 --- [Thread-13] c.g.f.i.imps.AssemblyLineStageImpl       : product [pan72] coming out to line linea de panes
+2021-05-20 13:48:06.978  INFO 154541 --- [Thread-13] c.g.f.i.imps.AssemblyLineStageImpl       : product [pan73] coming out to line linea de panes
+2021-05-20 13:48:06.978  INFO 154541 --- [Thread-13] c.g.f.i.imps.AssemblyLineStageImpl       : product [pan74] coming out to line linea de panes
+2021-05-20 13:48:06.979  INFO 154541 --- [Thread-13] c.g.f.i.imps.AssemblyLineStageImpl       : product [pan75] coming out to line linea de panes
+2021-05-20 13:48:06.979  INFO 154541 --- [Thread-13] c.g.f.i.imps.AssemblyLineStageImpl       : product [pan76] coming out to line linea de panes
+2021-05-20 13:48:06.979  INFO 154541 --- [Thread-13] c.g.f.i.imps.AssemblyLineStageImpl       : product [pan77] coming out to line linea de panes
+2021-05-20 13:48:06.979  INFO 154541 --- [Thread-13] c.g.f.i.imps.AssemblyLineStageImpl       : product [pan78] coming out to line linea de panes
+2021-05-20 13:48:06.979  INFO 154541 --- [Thread-13] c.g.f.i.imps.AssemblyLineStageImpl       : product [pan79] coming out to line linea de panes
+2021-05-20 13:48:06.979  INFO 154541 --- [Thread-13] c.g.f.i.imps.AssemblyLineStageImpl       : product [pan80] coming out to line linea de panes
+2021-05-20 13:48:06.979  INFO 154541 --- [Thread-13] c.g.f.i.imps.AssemblyLineStageImpl       : product [pan81] coming out to line linea de panes
+2021-05-20 13:48:06.980  INFO 154541 --- [Thread-13] c.g.f.i.imps.AssemblyLineStageImpl       : product [pan82] coming out to line linea de panes
+2021-05-20 13:48:08.977  INFO 154541 --- [Thread-14] c.g.f.i.imps.AssemblyLineStageImpl       : product [torta70] coming out to line linea de tortas
+2021-05-20 13:48:08.977  INFO 154541 --- [Thread-14] c.g.f.i.imps.AssemblyLineStageImpl       : product [torta71] coming out to line linea de tortas
+2021-05-20 13:48:08.977  INFO 154541 --- [Thread-14] c.g.f.i.imps.AssemblyLineStageImpl       : product [torta72] coming out to line linea de tortas
+2021-05-20 13:48:08.977  INFO 154541 --- [Thread-14] c.g.f.i.imps.AssemblyLineStageImpl       : product [torta73] coming out to line linea de tortas
+2021-05-20 13:48:08.977  INFO 154541 --- [Thread-14] c.g.f.i.imps.AssemblyLineStageImpl       : product [torta74] coming out to line linea de tortas
+2021-05-20 13:48:08.977  INFO 154541 --- [Thread-14] c.g.f.i.imps.AssemblyLineStageImpl       : product [torta75] coming out to line linea de tortas
+2021-05-20 13:48:08.977  INFO 154541 --- [Thread-14] c.g.f.i.imps.AssemblyLineStageImpl       : product [torta76] coming out to line linea de tortas
+2021-05-20 13:48:08.977  INFO 154541 --- [Thread-14] c.g.f.i.imps.AssemblyLineStageImpl       : product [torta77] coming out to line linea de tortas
+2021-05-20 13:48:08.977  INFO 154541 --- [Thread-14] c.g.f.i.imps.AssemblyLineStageImpl       : product [torta78] coming out to line linea de tortas
+2021-05-20 13:48:08.978  INFO 154541 --- [Thread-14] c.g.f.i.imps.AssemblyLineStageImpl       : product [torta79] coming out to line linea de tortas
+2021-05-20 13:48:08.978  INFO 154541 --- [Thread-14] c.g.f.i.imps.AssemblyLineStageImpl       : product [torta80] coming out to line linea de tortas
+2021-05-20 13:48:08.978  INFO 154541 --- [Thread-13] c.g.f.i.imps.AssemblyLineStageImpl       : product [pan83] coming out to line linea de panes
+2021-05-20 13:48:08.979  INFO 154541 --- [Thread-13] c.g.f.i.imps.AssemblyLineStageImpl       : product [pan84] coming out to line linea de panes
+2021-05-20 13:48:08.979  INFO 154541 --- [Thread-13] c.g.f.i.imps.AssemblyLineStageImpl       : product [pan85] coming out to line linea de panes
+2021-05-20 13:48:08.979  INFO 154541 --- [Thread-13] c.g.f.i.imps.AssemblyLineStageImpl       : product [pan86] coming out to line linea de panes
+2021-05-20 13:48:08.979  INFO 154541 --- [Thread-13] c.g.f.i.imps.AssemblyLineStageImpl       : product [pan87] coming out to line linea de panes
+2021-05-20 13:48:08.979  INFO 154541 --- [Thread-13] c.g.f.i.imps.AssemblyLineStageImpl       : product [pan88] coming out to line linea de panes
+2021-05-20 13:48:08.979  INFO 154541 --- [Thread-13] c.g.f.i.imps.AssemblyLineStageImpl       : product [pan89] coming out to line linea de panes
+2021-05-20 13:48:08.979  INFO 154541 --- [Thread-13] c.g.f.i.imps.AssemblyLineStageImpl       : product [pan90] coming out to line linea de panes
+2021-05-20 13:48:08.979  INFO 154541 --- [Thread-13] c.g.f.i.imps.AssemblyLineStageImpl       : product [pan91] coming out to line linea de panes
+2021-05-20 13:48:08.980  INFO 154541 --- [Thread-13] c.g.f.i.imps.AssemblyLineStageImpl       : product [pan92] coming out to line linea de panes
+2021-05-20 13:48:08.980  INFO 154541 --- [Thread-13] c.g.f.i.imps.AssemblyLineStageImpl       : product [pan93] coming out to line linea de panes
+2021-05-20 13:48:08.980  INFO 154541 --- [Thread-13] c.g.f.i.imps.AssemblyLineStageImpl       : product [pan94] coming out to line linea de panes
+2021-05-20 13:48:08.980  INFO 154541 --- [Thread-13] c.g.f.i.imps.AssemblyLineStageImpl       : product [pan95] coming out to line linea de panes
+2021-05-20 13:48:08.980  INFO 154541 --- [Thread-13] c.g.f.i.imps.AssemblyLineStageImpl       : product [pan96] coming out to line linea de panes
+2021-05-20 13:48:08.980  INFO 154541 --- [Thread-13] c.g.f.i.imps.AssemblyLineStageImpl       : product [pan97] coming out to line linea de panes
+2021-05-20 13:48:08.980  INFO 154541 --- [Thread-13] c.g.f.i.imps.AssemblyLineStageImpl       : product [pan98] coming out to line linea de panes
+2021-05-20 13:48:08.980  INFO 154541 --- [Thread-13] c.g.f.i.imps.AssemblyLineStageImpl       : product [pan99] coming out to line linea de panes
+2021-05-20 13:48:08.980  INFO 154541 --- [Thread-13] c.g.f.i.imps.AssemblyLineStageImpl       : product [pan100] coming out to line linea de panes
+2021-05-20 13:48:08.980  INFO 154541 --- [Thread-13] c.g.f.i.imps.AssemblyLineStageImpl       : product [pan101] coming out to line linea de panes
+2021-05-20 13:48:08.980  INFO 154541 --- [Thread-13] c.g.f.i.imps.AssemblyLineStageImpl       : product [pan102] coming out to line linea de panes
+2021-05-20 13:48:08.980  INFO 154541 --- [Thread-13] c.g.f.i.imps.AssemblyLineStageImpl       : product [pan103] coming out to line linea de panes
+2021-05-20 13:48:08.980  INFO 154541 --- [Thread-13] c.g.f.i.imps.AssemblyLineStageImpl       : product [pan104] coming out to line linea de panes
+2021-05-20 13:48:08.980  INFO 154541 --- [Thread-13] c.g.f.i.imps.AssemblyLineStageImpl       : product [pan105] coming out to line linea de panes
+2021-05-20 13:48:08.980  INFO 154541 --- [Thread-13] c.g.f.i.imps.AssemblyLineStageImpl       : product [pan106] coming out to line linea de panes
+2021-05-20 13:48:08.980  INFO 154541 --- [Thread-13] c.g.f.i.imps.AssemblyLineStageImpl       : product [pan107] coming out to line linea de panes
+2021-05-20 13:48:08.981  INFO 154541 --- [Thread-13] c.g.f.i.imps.AssemblyLineStageImpl       : product [pan108] coming out to line linea de panes
+2021-05-20 13:48:08.981  INFO 154541 --- [Thread-13] c.g.f.i.imps.AssemblyLineStageImpl       : product [pan109] coming out to line linea de panes
+2021-05-20 13:48:08.981  INFO 154541 --- [Thread-13] c.g.f.i.imps.AssemblyLineStageImpl       : product [pan110] coming out to line linea de panes
+2021-05-20 13:48:08.981  INFO 154541 --- [Thread-13] c.g.f.i.imps.AssemblyLineStageImpl       : product [pan111] coming out to line linea de panes
+2021-05-20 13:48:08.981  INFO 154541 --- [Thread-13] c.g.f.i.imps.AssemblyLineStageImpl       : product [pan112] coming out to line linea de panes
+2021-05-20 13:48:09.978  INFO 154541 --- [Thread-14] c.g.f.i.imps.AssemblyLineStageImpl       : product [torta81] coming out to line linea de tortas
+2021-05-20 13:48:09.979  INFO 154541 --- [Thread-14] c.g.f.i.imps.AssemblyLineStageImpl       : product [torta82] coming out to line linea de tortas
+2021-05-20 13:48:09.979  INFO 154541 --- [Thread-14] c.g.f.i.imps.AssemblyLineStageImpl       : product [torta83] coming out to line linea de tortas
+2021-05-20 13:48:09.979  INFO 154541 --- [Thread-14] c.g.f.i.imps.AssemblyLineStageImpl       : product [torta84] coming out to line linea de tortas
+2021-05-20 13:48:09.979  INFO 154541 --- [Thread-14] c.g.f.i.imps.AssemblyLineStageImpl       : product [torta85] coming out to line linea de tortas
+2021-05-20 13:48:09.979  INFO 154541 --- [Thread-14] c.g.f.i.imps.AssemblyLineStageImpl       : product [torta86] coming out to line linea de tortas
+2021-05-20 13:48:09.979  INFO 154541 --- [Thread-14] c.g.f.i.imps.AssemblyLineStageImpl       : product [torta87] coming out to line linea de tortas
+2021-05-20 13:48:14.192  INFO 154541 --- [RMI TCP Connection(7)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2021-05-20 13:48:14.195  INFO 154541 --- [RMI TCP Connection(7)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-20 13:48:14.198  INFO 154541 --- [RMI TCP Connection(7)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-05-20 13:48:14.199  INFO 154541 --- [RMI TCP Connection(7)-127.0.0.1] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2021-05-20 13:48:14.204  INFO 154541 --- [RMI TCP Connection(7)-127.0.0.1] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLException: La base de datos ya esta cerrada (para des-habilitar el cerrado automatico durante el shutdown de la VM, agregue ";DB_CLOSE_ON_EXIT=FALSE" a la URL de conexión)
+Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-197]
+2021-05-20 13:48:14.204  INFO 154541 --- [RMI TCP Connection(7)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-05-20 13:48:14.207  INFO 154541 --- [RMI TCP Connection(7)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-05-20 13:48:15.203 ERROR 154541 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+java.lang.IllegalStateException: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@621699ef has been closed already
+	at org.springframework.context.support.AbstractApplicationContext.assertBeanFactoryActive(AbstractApplicationContext.java:1067) ~[spring-context-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1100) ~[spring-context-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener.onApplicationEvent(ConditionEvaluationDeltaLoggingListener.java:43) ~[spring-boot-devtools-2.1.1.RELEASE.jar:2.1.1.RELEASE]
+	at org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener.onApplicationEvent(ConditionEvaluationDeltaLoggingListener.java:33) ~[spring-boot-devtools-2.1.1.RELEASE.jar:2.1.1.RELEASE]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172) ~[spring-context-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165) ~[spring-context-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139) ~[spring-context-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:398) ~[spring-context-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:355) ~[spring-context-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.boot.context.event.EventPublishingRunListener.running(EventPublishingRunListener.java:105) ~[spring-boot-2.1.1.RELEASE.jar:2.1.1.RELEASE]
+	at org.springframework.boot.SpringApplicationRunListeners.running(SpringApplicationRunListeners.java:78) ~[spring-boot-2.1.1.RELEASE.jar:2.1.1.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:332) ~[spring-boot-2.1.1.RELEASE.jar:2.1.1.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260) ~[spring-boot-2.1.1.RELEASE.jar:2.1.1.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248) ~[spring-boot-2.1.1.RELEASE.jar:2.1.1.RELEASE]
+	at com.gab.foodfactory.Application.main(Application.java:29) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-2.1.1.RELEASE.jar:2.1.1.RELEASE]
+
