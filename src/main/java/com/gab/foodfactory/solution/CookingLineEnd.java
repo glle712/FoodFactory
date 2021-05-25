@@ -10,6 +10,7 @@ import org.springframework.scheduling.annotation.Async;
 import org.springframework.stereotype.Component;
 
 import com.gab.foodfactory.interfaces.AssemblyLineStage;
+import com.gab.foodfactory.interfaces.imps.AssemblyLineStageImpl;
 import com.gab.foodfactory.interfaces.imps.ProductImpl;
 import com.gab.foodfactory.interfaces.Product;
 
@@ -34,8 +35,8 @@ public class CookingLineEnd {
 			try {
 				Future<Product> isCooking = cookingLine.take();
 				Product cooked = isCooking.get();
-//				System.out.println("--" + ((ProductImpl)cooked).getName() + "--");
-
+				System.out.println(String.format("putting %s in %s line", ((ProductImpl)cooked).getName(),
+						((AssemblyLineStageImpl)assemblyLine).getName()));
 				assemblyLine.putAfter(cooked);
 			} catch (InterruptedException | ExecutionException e) {
 				logger.error("trouble at the end of the line", e);

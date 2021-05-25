@@ -1,5 +1,8 @@
 package com.gab.foodfactory.solution;
 
+import java.util.Collections;
+import java.util.HashMap;
+import java.util.Map;
 import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.LinkedBlockingQueue;
 
@@ -16,35 +19,39 @@ import com.gab.foodfactory.interfaces.imps.StoreImpl;
 public class StorageLine {
 
 	BlockingQueue<Product> storageLine = new LinkedBlockingQueue<>();
-	
+
 	@Value("${stores}")
 	private int M;
 	@Value("${store.capacity}")
 	private int C;
-	
+
+	private Map<Product, Integer> map = Collections.synchronizedMap(new HashMap<Product, Integer>());
+
+	private int index = 0;
 
 	private Store[] stores;
-	
+
 	@PostConstruct
 	public void init() {
 		stores = new Store[M];
 		for (int i = 0; i < M; i++) {
 			stores[i] = new StoreImpl(C);
-			// daisy chain
-			if(i>0) {
-				final int index = i;
-				new Thread(()->{while (true) stores[index].put(stores[index-1].take());}).start();
-			}
 		}
 	}
-	
+
 	public void put(Product product) {
-		stores[0].put(product);
+		int index = cycle();
+		map.put(product, index);
+		stores[index].put(product);
 	}
-	
-	public Product take() {
-		return stores[M-1].take();
+
+	private int cycle() {
+		this.index = (this.index >= C - 1) ? 0 : this.index + 1;
+		return 0;
 	}
-	
+
+	public void take(Product product) {
+		stores[map.get(product)].take(product);
+	}
 
 }

@@ -34,9 +34,9 @@ public class Application {
 	public void init() {
 
 		// name, quantity, size, cookTimeMs
-		createLine("bread", 9, 1, 5000);
+		createLine("bread", 100, 1, 5000);
 		
-		createLine("cake", 7, 4, 8000);
+		createLine("cake", 50, 4, 8000);
 		
 		
 	}

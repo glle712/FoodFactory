@@ -39,7 +39,7 @@ public class OvenImpl implements Oven {
 		if (product.size() > this.availableSpace())
 			throw new CapacityExceededException();
 		this.cooking.add(product);
-		System.out.print("{" + ((ProductImpl)product).getName() + ":"+product.size()+"|"+this.availableSpace()+"}");
+		System.out.println("cooking {" + ((ProductImpl)product).getName() + ":"+product.size()+"|"+this.availableSpace()+"}");
 	}
 
 	@Override

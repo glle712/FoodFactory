@@ -20,12 +20,6 @@ public class CookingLine {
 	@Autowired
 	CookingLineEnd end;
 
-	/**
-	 * This asynchronous method exposes the cooking stage. The cooking process is
-	 * modeled as a BlockingQueue so as to keep the FIFO order of each line.
-	 * 
-	 * @param assemblyLine
-	 */
 	@Async
 	public void accept(AssemblyLineStage assemblyLine) {
 
