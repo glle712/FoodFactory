@@ -1,8 +1,5 @@
 package com.gab.foodfactory.solution;
 
-import java.util.Collections;
-import java.util.LinkedList;
-import java.util.Queue;
 import java.util.UUID;
 import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.LinkedBlockingQueue;
