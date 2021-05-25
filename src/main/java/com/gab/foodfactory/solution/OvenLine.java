@@ -26,7 +26,7 @@ public class OvenLine {
 	private int S;
 
 	private Oven[] ovens;
-	
+
 	private BlockingQueue<UUID> line = new LinkedBlockingQueue<UUID>();
 
 	@PostConstruct
@@ -42,9 +42,7 @@ public class OvenLine {
 		line.add(number);
 		return number;
 	}
-	
-	
-	
+
 	public synchronized Oven startCookingInOven(Product product) {
 		for (Oven oven : ovens) {
 //			try each oven until we find one that has space
@@ -57,21 +55,18 @@ public class OvenLine {
 				continue;
 			}
 		}
-		
-		// no room, product is next
+
+		// no room
 		return null;
 
 	}
 
 	public synchronized boolean imNext(UUID number) {
-//		System.out.println(String.format(
-//				"(%s) - next:%s, this:%s", (line.peek()!=null && line.peek().equals(number))?"YES":"NO", line.peek(), number));
-		return line.peek()!=null && line.peek().equals(number);
+		return line.peek() != null && line.peek().equals(number);
 	}
 
 	public synchronized void imServed(UUID number) {
 		line.remove(number);
 	}
-
 
 }

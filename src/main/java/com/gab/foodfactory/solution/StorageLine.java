@@ -39,7 +39,7 @@ public class StorageLine {
 		}
 	}
 
-	public void put(Product product) {
+	public synchronized void put(Product product) {
 		int index = cycle();
 		map.put(product, index);
 		stores[index].put(product);
