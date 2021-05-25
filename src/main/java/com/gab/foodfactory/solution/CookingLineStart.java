@@ -13,9 +13,6 @@ import com.gab.foodfactory.interfaces.AssemblyLineStage;
 import com.gab.foodfactory.interfaces.Product;
 
 /**
- * This class represents the starting end of the cooking queue, it has the
- * responsibility of passing to the Cook each product that comes from the
- * AssemblyLineStage
  * 
  * @author gabriel
  *

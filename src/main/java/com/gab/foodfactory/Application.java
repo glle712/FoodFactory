@@ -23,9 +23,6 @@ public class Application {
 	@Autowired
 	private CookingLine cookingLine;
 	
-	@Autowired
-	private LineHelper asyncHelper;
-
 	public static void main(String[] args) {
 		SpringApplication.run(Application.class, args);
 	}

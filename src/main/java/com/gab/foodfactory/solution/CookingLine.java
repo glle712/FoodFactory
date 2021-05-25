@@ -25,11 +25,6 @@ public class CookingLine {
 
 		BlockingQueue<Future<Product>> cookingLine = new LinkedBlockingQueue<>();
 
-//		new Thread(() -> start.fromAssemblyLine(assemblyLine, cookingLine)).start();
-//
-//		new Thread(() -> end.backToAssemblyLine(assemblyLine, cookingLine)).start();
-
-		
 		start.fromAssemblyLine(assemblyLine, cookingLine);
 
 		end.backToAssemblyLine(assemblyLine, cookingLine);
