@@ -23,7 +23,7 @@ public class Cook {
 	private ExecutorService executor = Executors.newCachedThreadPool();
 
 	@Autowired
-	OvenLine ovenLine;
+	private OvenLine ovenLine;
 
 	@Autowired
 	private StorageLine storage;

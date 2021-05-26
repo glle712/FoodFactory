@@ -9,7 +9,6 @@ import org.springframework.scheduling.annotation.EnableAsync;
 
 import com.gab.foodfactory.interfaces.imps.AssemblyLineStageImpl;
 import com.gab.foodfactory.solution.CookingLine;
-import com.gab.foodfactory.util.LineHelper;
 import com.gab.foodfactory.util.ProductProducer;
 
 /**
