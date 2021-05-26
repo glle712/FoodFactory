@@ -46,7 +46,7 @@ public class StorageLine {
 	}
 
 	private int cycle() {
-		this.index = (this.index >= C - 1) ? 0 : this.index + 1;
+		this.index = (this.index >= M - 1) ? 0 : this.index + 1;
 		return 0;
 	}
 
