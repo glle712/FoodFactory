@@ -38,35 +38,27 @@ public class Cook {
 		storage.put(product);
 
 		return executor.submit(() -> {
-//			System.out.println(String.format("%s waiting in line", ((ProductImpl) product).getName()));
 			Oven oven = null;
 			while (true) {
-//				System.out.println("checking - " + myNumber);
 				if (ovenLine.imNext(myNumber)) {
 					
 					storage.take(product);
 					System.out.println(String.format("take %s from storage", ((ProductImpl) product).getName()));
 
-//					System.out.println(String.format("%s waiting for oven", ((ProductImpl) product).getName()));
-//					System.out.println("got in - " + myNumber);
-
 					while ((oven = ovenLine.startCookingInOven(product)) == null) {
 						Thread.sleep(500);
 					}
-					// oven is mine, tell ovenLine to accept next
-//					System.out.println(String.format("%s got oven", ((ProductImpl) product).getName()));
-//					System.out.println("got oven - " + myNumber);
 					break;
 				}
 				Thread.sleep(200);
 			}
-//			System.out.println("end - " + myNumber);
+			// oven is mine, tell ovenLine to accept next
 			ovenLine.imServed(myNumber);
-//			System.out.println(String.format("%s cooking", ((ProductImpl) product).getName()));
+
 			// cook the product and return it
 			Thread.sleep(product.cookTime().toMillis());
 			oven.take(product);
-			System.out.println("" + ((ProductImpl)product).getName() + " cooked");
+			System.out.println("" + ((ProductImpl)product).getName() + " done");
 			return product;
 
 		});
